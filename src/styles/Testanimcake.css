@@ -1,0 +1,26 @@
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .click-butt {
+    font-size: 1.2rem;
+    padding: 0.75em 1.5em;
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 600px) {
+    .click-butt {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#bbe3e6;
+}
+.container{
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.popsicles{
+width: 180px;
+height: 300px;
+position: relative;
+background-color: black;
+top: 45px;
+border-radius: 90px  90px 20px 20px;
+}
+
+.popsicles:before{
+    position: absolute;
+    content:"";
+    height: 180px;
+    width: 15px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 15px;
+    right: 20px;
+    top: 60px;
+}
+
+.popsicles:after{
+ position: absolute;
+ content: "";
+ height: 180px;
+ width: 30px;
+ background-color: #dba55b;
+ top: 300px;
+ margin: auto; 
+ left: 0;
+ right: 0;
+ border-radius: 0 0 20px 20px;
+}
+
+.popsicles-1{
+    background-image: repeating-linear-gradient(
+        135deg,
+        #ff7eaf 0,
+        #ff7eaf 20px,
+        #ff0565 20px,
+        #ff0565 40px
+    );
+}
+
+.popsicles-2{
+    background-size: 60px 300px;
+    background-image: radial-gradient(
+     circle at  30px 53px, blue 80px, white 81px
+    );
+
+}
+.popsicles-3{
+    background-color: maroon;
+    background-image: radial-gradient(
+        #c39a6b 4px, transparent 4px
+    );
+    background-size: 30px 30px;
+}
+
