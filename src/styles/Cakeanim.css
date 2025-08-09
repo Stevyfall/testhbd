@@ -108,36 +108,36 @@ body {
  
 }  
 .flashtext{
-    font-size: 2.7em;
+    font-size: 1.1em;
     opacity: 0;
     animation: appear 6s forwards;
     animation-delay: 5s;
 }
   .text1{
     opacity: 0;
-    font-size: 5.5em;
+    font-size: 1.5em;
     animation: appear 6s forwards;
     animation-delay: 7s;
   }
   .text2{
     opacity: 0;
-    font-size: 5.5em;
+    font-size: 1.5em;
     animation: appear 6s forwards;
     animation-delay: 10s;
   }.text3{
     opacity: 0;
-    font-size: 5.5em;
+    font-size: 1.5em;
     animation: appear 6s forwards;
     animation-delay: 13s;
   }.text4{
     opacity: 0;
-    font-size: 5.5em;
+    font-size: 1.5em;
     animation: appear 6s forwards;
     animation-delay: 16s;
 
   }.text5{
     opacity: 0;
-    font-size: 5.5em;
+    font-size: 1.5em;
     animation: appear 6s forwards;
     animation-delay: 19s;
   }
