@@ -6,19 +6,21 @@
   }
   
   .click-butt {
+    background-image: url(../images/voie.jpg);
     font-size: 1.2rem;
     padding: 0.75em 1.5em;
-    width: 90%;
+    width: 95%;
     max-width: 300px;
+    max-height: 200px;
     margin: auto;
     display: block;
-    border-radius: 12px;
-    background-color: #ff69b4;
+    border-radius: 30px;
+    background-color: rgb(173, 47, 198);
     color: white;
     border: none;
-    cursor: pointer;
+    cursor: pointer
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-heigth: 400px) {
     .click-butt {
       font-size: 1rem;
     }

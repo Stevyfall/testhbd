@@ -24,7 +24,7 @@ export default function Testanimcake() {
             Click Me
           </button>
         )}
-        <audio ref={audioRef} src="/sounds/hbdsong.wav" />
+        <audio ref={audioRef} src="./sounds/hbdsong.wav" loop/>
       </div>
       {clicked && <Cakeanim/>}
     </div>

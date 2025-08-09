@@ -5,6 +5,7 @@ export default function Cakeanim() {
       
   return(
   <div>
+
     <div className="velas">
        <div className="fuego"></div>
        <div className="fuego"></div>
@@ -13,13 +14,7 @@ export default function Cakeanim() {
        <div className="fuego"></div>
     </div>
   
-    <svg
-  id="cake"
-  viewBox="0 0 200 500"
-  width="100%"
-  height="auto"
-  preserveAspectRatio="xMidYMid meet"
->
+    <svg id="cake" version="1.1" x="0px" y="0px" width="200px" height="500px" viewBox="0 0 200 500" enableBackground="new 0 0 200 500" xmlSpace="preserve">
   
   
     <path fill="#a88679" d="M173.667-13.94c-49.298,0-102.782,0-147.334,0c-3.999,0-4-16.002,0-16.002
@@ -177,9 +172,13 @@ export default function Cakeanim() {
     </svg>
     <div className="text">
         <div className="flashtext">
-        <h1>happy birthday!</h1>
-        <div>Jonas</div>
+        <h1>Happy birthday my G!</h1>
         </div>
+        <div className="text1">first line</div>
+        <div className="text2">second line</div>
+        <div className="text3">third line</div>
+        <div className="text4">fourth line</div>
+        <div className="text5">fifth line</div>
         
     </div>
    </div>
